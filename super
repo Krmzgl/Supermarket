@@ -1,4 +1,5 @@
 """
+
     Stage: Development-01
     @author: Amin Habiballah-119202002
     @author: Taha Mert Kırmızıgül-120202009
@@ -9,7 +10,7 @@ import tkinter as SuperMarket
 
 class LoginWindow:
     # constructor
-    def __init__(self):
+    def _init_(self):
         self.window = SuperMarket.Tk()
 
         self._initializeGUI()
@@ -63,11 +64,11 @@ class LoginWindow:
         self.txt01.get()
         self.txt02.get()
         if self.txt01 != ("admin")  & self.txt02 != (123):
-           def __init__(self):
+           def _init_(self):
             self.window = SuperMarket.Tk()
         return
 
 
 # main method for testing the application
-if __name__ == "__main__":
+if _name_ == "_main_":
     LoginWindow()
