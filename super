@@ -4,7 +4,6 @@
     @author: Amin Habiballah-119202002
     @author: Taha Mert Kırmızıgül-120202009
     
-    
     Development-02:
     @author: Sinan Hacısoyu- 119200060
     @author: Mhd Nour Khalifa-120200127
@@ -16,7 +15,7 @@ from time import sleep
 from tkinter import PhotoImage
 
 #list of users
-users = [ ('','')]
+users = [ ('hamza','pass'),('mert','pass'),('admin','admin')]
 
 class LoginWindow:
     # constructor
